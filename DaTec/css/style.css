@@ -1,0 +1,38 @@
+footer{
+    background: #1b2a4e;
+    min-height: 80px;
+}
+footer p{
+    color: #f3f3f3;
+}
+.carousel-inner{
+    max-height: 30rem;
+}
+#img-equipo{
+    max-height: 30rem !important;
+    width: 70%;
+}
+/* Media querry */
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+@media (max-width:576px){
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/* @media (max-width:768px){
+    #intro1{
+        width: 90% !important;
+    }
+
+} */
